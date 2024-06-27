@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Inter var, ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
 
 nav {
@@ -132,7 +133,7 @@ main {
 }
 
 .previews {
-  width: 465.6px;
+  width: 500.6px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -146,7 +147,7 @@ main {
   margin-top: 1rem;
 }
 
-.right_container span {
+.color {
   margin-top: 1rem;
   line-height: 1.75rem;
 }
@@ -154,6 +155,7 @@ main {
 .colors {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .color1 {
@@ -179,8 +181,8 @@ main {
   margin-left: 8px;
 }
 
-.right_container button {
-  width: 60%;
+.right_container .add_btn {
+  width: 50%;
   font-size: 16px;
   padding: 12px 32px;
   background-color: #4f46e5;
@@ -193,8 +195,37 @@ main {
 .btn_ic svg {
   margin-left: 16px;
 }
+
 .btn_ic {
   display: flex;
   align-items: center;
   margin-top: 2.5rem;
+}
+
+.dropdowns {
+  margin-top: 2.5rem;
+}
+.dropdowns span {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.dropdowns button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  padding: 24px 0;
+  border: none;
+  border-top: 0.5px solid #8f8f8f;
+}
+
+.below_container {
+  margin: 40px 0 0;
+  padding: 64px 0;
+  border: none;
+  border-top: 0.5px solid #8f8f8f;
+  display: flex;
+  flex-direction: column;
 }
